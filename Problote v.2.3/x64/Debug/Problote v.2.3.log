@@ -1,0 +1,29 @@
+﻿  App.cpp
+C:\Users\tigue\source\repos\Problote v.2.3\App.cpp(5,10): error C1083: Impossible d'ouvrir le fichier include : 'QMainWindow' : No such file or directory
+  BarCharts.cpp
+C:\Users\tigue\source\repos\Problote v.2.3\BarCharts.cpp(1,10): error C1083: Impossible d'ouvrir le fichier include : 'BarCharts.h' : No such file or directory
+  CantinePage.cpp
+C:\Users\tigue\source\repos\Problote v.2.3\CantinePage.cpp(4,10): error C1083: Impossible d'ouvrir le fichier include : 'QWidget' : No such file or directory
+  CantineService.cpp
+C:\Users\tigue\source\repos\Problote v.2.3\CantineService.cpp(5,10): error C1083: Impossible d'ouvrir le fichier include : 'QObject' : No such file or directory
+  Devoirs.cpp
+C:\Users\tigue\source\repos\Problote v.2.3\Devoirs.cpp(4,10): error C1083: Impossible d'ouvrir le fichier include : 'QWidget' : No such file or directory
+  DevoirsService.cpp
+C:\Users\tigue\source\repos\Problote v.2.3\DevoirsService.cpp(5,10): error C1083: Impossible d'ouvrir le fichier include : 'QObject' : No such file or directory
+  EmploiPage.cpp
+C:\Users\tigue\source\repos\Problote v.2.3\EmploiPage.cpp(4,10): error C1083: Impossible d'ouvrir le fichier include : 'QWidget' : No such file or directory
+  EmploiService.cpp
+C:\Users\tigue\source\repos\Problote v.2.3\EmploiService.cpp(5,10): error C1083: Impossible d'ouvrir le fichier include : 'QObject' : No such file or directory
+  LineCharts.cpp
+C:\Users\tigue\source\repos\Problote v.2.3\LineCharts.cpp(1,10): error C1083: Impossible d'ouvrir le fichier include : 'LineCharts.h' : No such file or directory
+  main.cpp
+C:\Users\tigue\source\repos\Problote v.2.3\main.cpp(2,10): error C1083: Impossible d'ouvrir le fichier include : 'QApplication' : No such file or directory
+  Navigation.cpp
+C:\Users\tigue\source\repos\Problote v.2.3\Navigation.cpp(5,10): error C1083: Impossible d'ouvrir le fichier include : 'QWidget' : No such file or directory
+  NotesPage.cpp
+C:\Users\tigue\source\repos\Problote v.2.3\NotesPage.cpp(4,10): error C1083: Impossible d'ouvrir le fichier include : 'QWidget' : No such file or directory
+  NotesService.cpp
+C:\Users\tigue\source\repos\Problote v.2.3\NotesService.cpp(6,10): error C1083: Impossible d'ouvrir le fichier include : 'QObject' : No such file or directory
+  PawnoteClient.cpp
+C:\Users\tigue\source\repos\Problote v.2.3\PawnoteClient.cpp(6,10): error C1083: Impossible d'ouvrir le fichier include : 'QObject' : No such file or directory
+  Génération de code en cours...
