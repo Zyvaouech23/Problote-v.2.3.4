@@ -1,0 +1,178 @@
+/* -----------------------------
+   Style général de l'application
+--------------------------------*/
+QWidget {
+    background-color: #f0f2f5; /* fond clair, style Pronote moderne */
+    color: #2c3e50;            /* texte sombre pour lisibilité */
+    font-family: "Segoe UI", "Roboto", sans-serif;
+    font-size: 12pt;
+}
+
+/* -----------------------------
+   Fenêtres et onglets
+--------------------------------*/
+QTabWidget::pane {
+    border: 1px solid #d0d3d8;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+QTabBar::tab {
+    background: #e6e9ef;
+    color: #2c3e50;
+    padding: 10px 20px;
+    border-radius: 8px 8px 0 0;
+    margin-right: 2px;
+    font-weight: bold;
+}
+
+QTabBar::tab:selected {
+    background: #3498db; /* bleu Pronote moderne */
+    color: #ffffff;
+}
+
+/* -----------------------------
+   Boutons
+--------------------------------*/
+QPushButton {
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+QPushButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton:pressed {
+    background-color: #1c5980;
+}
+
+/* -----------------------------
+   Tables et listes (Notes, Devoirs)
+--------------------------------*/
+QTableWidget, QListWidget {
+    background-color: #ffffff;
+    border: 1px solid #d0d3d8;
+    border-radius: 8px;
+    gridline-color: #d0d3d8;
+}
+
+QHeaderView::section {
+    background-color: #3498db;
+    color: white;
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+/* -----------------------------
+   Checkboxes
+--------------------------------*/
+QCheckBox {
+    spacing: 5px;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    border: 1px solid #3498db;
+    background: #ffffff;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #3498db;
+    border: 1px solid #2980b9;
+}
+
+/* -----------------------------
+   Graphiques (BarCharts, LineCharts)
+--------------------------------*/
+QWidget#ChartWidget {
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #d0d3d8;
+}
+
+/* -----------------------------
+   Menus et Emploi du temps
+--------------------------------*/
+QMenuBar {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+QMenuBar::item:selected {
+    background-color: #2980b9;
+}
+
+QMenu {
+    background-color: #ffffff;
+    color: #2c3e50;
+    border: 1px solid #d0d3d8;
+}
+
+QMenu::item:selected {
+    background-color: #3498db;
+    color: white;
+}
+
+/* -----------------------------
+   Input fields
+--------------------------------*/
+QLineEdit, QTextEdit, QPlainTextEdit {
+    border: 1px solid #d0d3d8;
+    border-radius: 6px;
+    padding: 4px;
+    background-color: #ffffff;
+    selection-background-color: #3498db;
+    selection-color: white;
+}
+
+/* -----------------------------
+   Scrollbars
+--------------------------------*/
+QScrollBar:vertical {
+    background: #f0f2f5;
+    width: 12px;
+    margin: 0px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical {
+    background: #3498db;
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #2980b9;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+/* -----------------------------
+   Tooltips
+--------------------------------*/
+QToolTip {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 11pt;
+}
+
+/* -----------------------------
+   Animations et transitions
+--------------------------------*/
+QPushButton, QTabBar::tab {
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}

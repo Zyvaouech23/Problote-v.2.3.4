@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{169d0031-9738-4fd1-99dc-50ba0719fbce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{7cb83138-20fb-429e-a34a-3ed7b875d935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="services">
+      <UniqueIdentifier>{131d833b-5924-4938-897c-e7ea516963b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models">
+      <UniqueIdentifier>{5dc30f7b-17bc-47fd-8727-83af77f124e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="charts">
+      <UniqueIdentifier>{feaca55c-23f2-42a6-aec1-1deea148b850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{5833f0cb-7b27-44fd-83ae-6352b5ccc86b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="NotesPage.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Devoirs.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="EmploiPage.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="CantinePage.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="PawnoteClient.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="NotesService.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="DevoirsService.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="EmploiService.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="CantineService.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="BarCharts.cpp">
+      <Filter>charts</Filter>
+    </ClCompile>
+    <ClCompile Include="LineCharts.cpp">
+      <Filter>charts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Note.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="Matiere.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="Devoir.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuCantine.h">
+      <Filter>models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="style.qss" />
+  </ItemGroup>
+</Project>
