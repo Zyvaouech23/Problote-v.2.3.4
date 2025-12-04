@@ -1,15 +1,34 @@
 #ifndef PAWNOTECLIENT_H
 #define PAWNOTECLIENT_H
 
-class PawnoteClient {
-public:
-    PawnoteClient(); // Constructor
-    ~PawnoteClient(); // Destructor
+#include <QObject>
+#include <QString>
+#include <QNetworkAccessManager>
+#include <QJsonDocument>
 
-    void connect(); // Method to connect to Pawnote service
-    void disconnect(); // Method to disconnect from Pawnote service
-    void sendNote(const std::string& note); // Method to send a note
-    std::string receiveNote(); // Method to receive a note
+class PawnoteClient : public QObject {
+    Q_OBJECT
+
+public:
+    explicit PawnoteClient(QObject* parent = nullptr, const QString& baseUrl = "http://127.0.0.1:5000");
+    ~PawnoteClient() = default;
+
+    void fetchGrades();
+    void fetchHomeworks();
+    void fetchTimetable();
+    void fetchMenu();
+
+signals:
+    void gotResponse(const QString& endpoint, const QJsonDocument& doc);
+    void errorOccurred(const QString& endpoint, const QString& message);
+
+private slots:
+    void onReplyFinished();
+
+private:
+    void doGet(const QString& path);
+    QNetworkAccessManager* m_mgr;
+    QString m_baseUrl;
 };
 
 #endif // PAWNOTECLIENT_H
