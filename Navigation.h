@@ -1,0 +1,1 @@
+#ifndef NAVIGATION_H\n#define NAVIGATION_H\n\nclass Navigation {\npublic:\n    Navigation();\n    void navigate();\n    // Additional methods and attributes can be defined here\n};\n\n#endif // NAVIGATION_H
