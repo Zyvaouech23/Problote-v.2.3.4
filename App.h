@@ -1,0 +1,1 @@
+#ifndef APP_H\n#define APP_H\n\nclass App {\npublic:\n    App(); // Constructor\n    void start(); // Method to start the app\n    void stop(); // Method to stop the app\n};\n\n#endif // APP_H
